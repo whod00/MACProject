@@ -95,7 +95,6 @@
 		845DC1841C3985FE008E9C5E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				845DC1781C398501008E9C5E /* LaunchScreen.storyboard */,
 				845DC1701C398501008E9C5E /* Main.storyboard */,
 			);
 			name = Views;
@@ -113,6 +112,7 @@
 		845DC1861C398632008E9C5E /* System */ = {
 			isa = PBXGroup;
 			children = (
+				845DC1781C398501008E9C5E /* LaunchScreen.storyboard */,
 				845DC16A1C398501008E9C5E /* AppDelegate.h */,
 				845DC16B1C398501008E9C5E /* AppDelegate.m */,
 				845DC1761C398501008E9C5E /* Assets.xcassets */,
