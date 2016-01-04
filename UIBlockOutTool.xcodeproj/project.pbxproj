@@ -6,28 +6,8 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		845DC1691C398501008E9C5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DC1681C398501008E9C5E /* main.m */; };
-		845DC16C1C398501008E9C5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DC16B1C398501008E9C5E /* AppDelegate.m */; };
-		845DC16F1C398501008E9C5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DC16E1C398501008E9C5E /* ViewController.m */; };
-		845DC1721C398501008E9C5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845DC1701C398501008E9C5E /* Main.storyboard */; };
-		845DC1751C398501008E9C5E /* UIBlockOutTool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845DC1731C398501008E9C5E /* UIBlockOutTool.xcdatamodeld */; };
-		845DC1771C398501008E9C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845DC1761C398501008E9C5E /* Assets.xcassets */; };
-		845DC17A1C398501008E9C5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845DC1781C398501008E9C5E /* LaunchScreen.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		845DC1641C398501008E9C5E /* UIBlockOutTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBlockOutTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		845DC1681C398501008E9C5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		845DC16A1C398501008E9C5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		845DC16B1C398501008E9C5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		845DC16D1C398501008E9C5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		845DC16E1C398501008E9C5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		845DC1711C398501008E9C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		845DC1741C398501008E9C5E /* UIBlockOutTool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UIBlockOutTool.xcdatamodel; sourceTree = "<group>"; };
-		845DC1761C398501008E9C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		845DC1791C398501008E9C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		845DC17B1C398501008E9C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845DC1641C398501008E9C5E /* UIBlockOutTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = UIBlockOutTool.app; path = "/Users/admin/Desktop/MACProject/build/Debug-iphoneos/UIBlockOutTool.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,82 +24,7 @@
 		845DC15B1C398501008E9C5E = {
 			isa = PBXGroup;
 			children = (
-				845DC1661C398501008E9C5E /* UIBlockOutTool */,
-				845DC1651C398501008E9C5E /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		845DC1651C398501008E9C5E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				845DC1641C398501008E9C5E /* UIBlockOutTool.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		845DC1661C398501008E9C5E /* UIBlockOutTool */ = {
-			isa = PBXGroup;
-			children = (
-				845DC1831C3985EE008E9C5E /* Editor */,
-				845DC1811C3985CC008E9C5E /* IO */,
-				845DC1861C398632008E9C5E /* System */,
-				845DC1671C398501008E9C5E /* Supporting Files */,
-			);
-			path = UIBlockOutTool;
-			sourceTree = "<group>";
-		};
-		845DC1671C398501008E9C5E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				845DC1681C398501008E9C5E /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		845DC1811C3985CC008E9C5E /* IO */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = IO;
-			sourceTree = "<group>";
-		};
-		845DC1831C3985EE008E9C5E /* Editor */ = {
-			isa = PBXGroup;
-			children = (
-				845DC1851C398603008E9C5E /* ViewControllers */,
-				845DC1841C3985FE008E9C5E /* Views */,
-			);
-			name = Editor;
-			sourceTree = "<group>";
-		};
-		845DC1841C3985FE008E9C5E /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				845DC1701C398501008E9C5E /* Main.storyboard */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		845DC1851C398603008E9C5E /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				845DC16D1C398501008E9C5E /* ViewController.h */,
-				845DC16E1C398501008E9C5E /* ViewController.m */,
-			);
-			name = ViewControllers;
-			sourceTree = "<group>";
-		};
-		845DC1861C398632008E9C5E /* System */ = {
-			isa = PBXGroup;
-			children = (
-				845DC1781C398501008E9C5E /* LaunchScreen.storyboard */,
-				845DC16A1C398501008E9C5E /* AppDelegate.h */,
-				845DC16B1C398501008E9C5E /* AppDelegate.m */,
-				845DC1761C398501008E9C5E /* Assets.xcassets */,
-				845DC17B1C398501008E9C5E /* Info.plist */,
-				845DC1731C398501008E9C5E /* UIBlockOutTool.xcdatamodeld */,
-			);
-			name = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +70,7 @@
 				Base,
 			);
 			mainGroup = 845DC15B1C398501008E9C5E;
-			productRefGroup = 845DC1651C398501008E9C5E /* Products */;
+			productRefGroup = 845DC15B1C398501008E9C5E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -179,9 +84,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845DC17A1C398501008E9C5E /* LaunchScreen.storyboard in Resources */,
-				845DC1771C398501008E9C5E /* Assets.xcassets in Resources */,
-				845DC1721C398501008E9C5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,33 +94,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845DC16F1C398501008E9C5E /* ViewController.m in Sources */,
-				845DC16C1C398501008E9C5E /* AppDelegate.m in Sources */,
-				845DC1751C398501008E9C5E /* UIBlockOutTool.xcdatamodeld in Sources */,
-				845DC1691C398501008E9C5E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		845DC1701C398501008E9C5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				845DC1711C398501008E9C5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		845DC1781C398501008E9C5E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				845DC1791C398501008E9C5E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		845DC17C1C398501008E9C5E /* Debug */ = {
@@ -347,19 +226,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		845DC1731C398501008E9C5E /* UIBlockOutTool.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				845DC1741C398501008E9C5E /* UIBlockOutTool.xcdatamodel */,
-			);
-			currentVersion = 845DC1741C398501008E9C5E /* UIBlockOutTool.xcdatamodel */;
-			path = UIBlockOutTool.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 845DC15C1C398501008E9C5E /* Project object */;
 }
